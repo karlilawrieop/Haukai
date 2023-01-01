@@ -5,8 +5,12 @@
 }
 /* Style the header */
 .header {
-    background-color:white;
+    background-color:#363020;
     text-align: center;
+}
+/* Style header1 text*/
+.header h1 {
+    color: #A49966
 }
  /* create flex container for logo  DO I NEED THIS??*/
  .nav .logo {
@@ -21,7 +25,7 @@
  /* Style the nav bar */
 .nav {
     overflow: hidden;
-    background-color: #363020;
+    background-color: white;
     padding: 10px;
 }
  /* create flex container for top nav list*/
@@ -34,6 +38,10 @@
     color: #A49966;
     padding: 14px 16px;
     text-decoration: none;
+}
+/* Style paragraph text*/
+p {
+    color: #A49966
 }
 /* Style the footer */
 .footer {
