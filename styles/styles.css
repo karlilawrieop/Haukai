@@ -1,32 +1,43 @@
 /* Universal box sizing */
 * {
     box-sizing: border-box;
-}
-/* Set the size of the body */
-body {
-  width: 600px;
+    margin: 0px;
 }
 /* Style the header */
 .header {
-    background-color:green;
+    background-color:white;
     text-align: center;
-    padding: 20px;
 }
-/* Style the top navigation bar */
-.topnav {
+ /* create flex container for logo  DO I NEED THIS??*/
+ .nav .logo {
+    display:flex;
+ }
+/* create flex container for nav bar*/
+.nav .container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ /* Style the nav bar */
+.nav {
     overflow: hidden;
-    background-color: black;
+    background-color: #363020;
+    padding: 10px;
 }
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
+ /* create flex container for top nav list*/
+ .nav ul {
+    display:flex;
+    list-style: none;
+ }
+/* Style the nav links */
+.nav a {
+    color: #A49966;
     padding: 14px 16px;
+    text-decoration: none;
 }
+/* Style the footer */
 .footer {
-    background-color: yellow;
+    background-color: #605C4E;
     text-align: center;
     padding: 10px;
 }
