@@ -41,6 +41,15 @@
     display:flex;
     list-style: none;
  }
+ /* style the calendar */
+ .iframe {
+    border: white
+    border-style: ridge
+    width="1600" 
+    height="1200" 
+    frameborder="0" 
+    scrolling="no"
+ }
  /* set max size of images*/
  .image {
     max-width: 100%;
@@ -48,7 +57,7 @@
 /* Style the footer */
 .footer {
     background-color:#364156;
-    text-align: center;
+    text-align: center
     padding: 10px;
     font-size: medium;
     border: white;
