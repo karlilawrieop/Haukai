@@ -16,7 +16,7 @@
     border: white;
     border-style: ridge;
  }
-/* flex container for main columns*/
+/* flex container for columns*/
  .container2 {
     display:flex;
     justify-content: center;
@@ -25,7 +25,17 @@
     border: white;
     border-style: ridge;
  }
- .column {
+ /* flex container for rows*/
+ .container3 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #364156;
+    border: white;
+    border-style: ridge;
+ }
+ /* box class */
+ .box {
     margin: 10px;
     padding: 20px;
     font-size: large;
@@ -41,23 +51,21 @@
     display:flex;
     list-style: none;
  }
- /* style the calendar */
- .iframe {
-    border: white
-    border-style: ridge
-    width="1600" 
-    height="1200" 
-    frameborder="0" 
-    scrolling="no"
- }
  /* set max size of images*/
  .image {
     max-width: 100%;
  }
+ iframe {
+    border-style:ridge;
+    border: #A49966;
+    width: 800px; 
+    height: 600px;
+
+ }
 /* Style the footer */
 .footer {
     background-color:#364156;
-    text-align: center
+    text-align: center;
     padding: 10px;
     font-size: medium;
     border: white;
