@@ -11,8 +11,10 @@
 /* flex container for nav bar*/
 .nav .container1 {
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly   ;
     align-items: center;
+    border: white;
+    border-style: ridge;
  }
 /* flex container for main columns*/
  .container2 {
@@ -26,7 +28,7 @@
  .column {
     margin: 10px;
     padding: 20px;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
   }
  /* Style the nav bar */
@@ -39,12 +41,18 @@
     display:flex;
     list-style: none;
  }
+ /* set max size of images*/
+ .image {
+    max-width: 100%;
+ }
 /* Style the footer */
 .footer {
     background-color:#364156;
     text-align: center;
     padding: 10px;
     font-size: medium;
+    border: white;
+    border-style: ridge;
 }
 /* Fonts */
 h1, h2, p1, p2, .nav a {
