@@ -20,7 +20,7 @@
  .container2 {
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     background-color: #364156;
     border: white;
     border-style: ridge;
@@ -46,7 +46,7 @@
     overflow: hidden;
     background-color: white;
 }
- /* create flex container for top nav list*/
+ /* container for top nav list*/
  .nav ul {
     display:flex;
     list-style: none;
@@ -59,8 +59,7 @@
     border-style:ridge;
     border: #A49966;
     width: 800px; 
-    height: 600px;
-
+    height: 400px;
  }
 /* Style the footer */
 .footer {
