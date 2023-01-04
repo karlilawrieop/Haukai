@@ -11,7 +11,7 @@
 /* flex container for nav bar*/
 .nav .container1 {
     display:flex;
-    justify-content: space-evenly   ;
+    justify-content: space-evenly;
     align-items: center;
     border: white;
     border-style: ridge;
@@ -20,7 +20,6 @@
  .container2 {
     display:flex;
     justify-content: center;
-    align-items: center;    
     background-color: #364156;
     border: white;
     border-style: ridge;
@@ -41,6 +40,11 @@
     font-size: large;
     text-align: center;
   }
+ /* style the menu images */
+ .menuimage {
+    padding: 10px;
+ }
+
  /* Style the nav bar */
 .nav {
     overflow: hidden;
@@ -51,6 +55,9 @@
     display:flex;
     list-style: none;
  }
+ .container3 ul {
+    list-style: none;
+ }
  /* set max size of images*/
  .image {
     max-width: 100%;
@@ -58,8 +65,21 @@
  iframe {
     border-style:ridge;
     border: #A49966;
-    width: 800px; 
-    height: 400px;
+    width: 100%; 
+ }
+ .audio {
+    width: 100%;
+    height: 166;
+    font-size: 10px;
+    color: #cccccc;
+    line-break: anywhere;
+    word-break: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+    text-decoration: none
  }
 /* Style the footer */
 .footer {
@@ -71,13 +91,31 @@
     border-style: ridge;
 }
 /* Fonts */
-h1, h2, p1, p2, .nav a {
+h1, h2 {
     font-family: "arial", times, sans-serif;
-    color: #A49966
+    color: darkgoldenrod;
+    margin: 3px;
+}
+p1, p2, .nav a, .container2 dl {
+    font-family: "arial", times, sans-serif;
+    color: #eaffea;
+}
+dt {
+    font-weight: bolder;
+    margin-top: 15px;
+}
+span {
+    font-family: "arial", times, sans-serif;
+    color: darkgoldenrod;
+    margin: 6px;
+}
+#a, .container2 a {
+    padding-top: 30px;
+    color: #161a1d;
 }
 /* Style the nav links */
 .nav a {
-    color: #A49966;
+    color: #364156;
     padding: 14px 20px;
     text-decoration: none;
     font-size: large;
