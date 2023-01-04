@@ -44,42 +44,21 @@
  .menuimage {
     padding: 10px;
  }
-
  /* Style the nav bar */
 .nav {
     overflow: hidden;
     background-color: white;
 }
- /* container for top nav list*/
+ /* style for top nav list*/
  .nav ul {
     display:flex;
     list-style: none;
  }
- .container3 ul {
-    list-style: none;
- }
- /* set max size of images*/
- .image {
-    max-width: 100%;
- }
+ /* style embedded google iframes*/
  iframe {
     border-style:ridge;
     border: #A49966;
     width: 100%; 
- }
- .audio {
-    width: 100%;
-    height: 166;
-    font-size: 10px;
-    color: #cccccc;
-    line-break: anywhere;
-    word-break: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis; 
-    font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
-    font-weight: 100;
-    text-decoration: none
  }
 /* Style the footer */
 .footer {
@@ -90,33 +69,55 @@
     border: white;
     border-style: ridge;
 }
+/* style reservation button */
+.container2 a {
+    background-color: darkgoldenrod;
+    border-style: outset;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+}
+/* mouse over link */
+.nav a:hover {
+    text-decoration: underline;
+  }
+  /* selected link - doesn't work */
+.nav a:active {
+    text-decoration: underline;
+  }
+
 /* Fonts */
+
+/* main header on every page, header for each section*/
 h1, h2 {
     font-family: "arial", times, sans-serif;
     color: darkgoldenrod;
     margin: 3px;
 }
-p1, p2, .nav a, .container2 dl {
+/* paragraph text, nav links, menu items list*/
+p1, p2, .container2 dl {
     font-family: "arial", times, sans-serif;
     color: #eaffea;
 }
-dt {
-    font-weight: bolder;
-    margin-top: 15px;
-}
-span {
-    font-family: "arial", times, sans-serif;
-    color: darkgoldenrod;
-    margin: 6px;
-}
-#a, .container2 a {
-    padding-top: 30px;
-    color: #161a1d;
-}
-/* Style the nav links */
+/*  nav links */
 .nav a {
+    font-family: "arial", times, sans-serif;
     color: #364156;
     padding: 14px 20px;
     text-decoration: none;
     font-size: large;
+}
+/* menu items description*/
+dt {
+    font-weight: bolder;
+    margin-top: 15px;
+}
+/* menu items price*/
+span {
+    font-family: "arial", times, sans-serif;
+    color: darkgoldenrod;
+    margin: 6px;
 }
