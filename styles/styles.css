@@ -8,7 +8,17 @@
     background-color:#364156;
     text-align: center;
 }
-/* flex container for nav bar*/
+/* placeholder for logo */
+.logo {
+    width: 166;
+    height: 142;
+}
+/* placeholder for hangi image on index page*/
+.hangi {
+    width: 1500;
+    height: 475;
+}
+/* flex container for nav bar */
 .nav .container1 {
     display:flex;
     justify-content: space-evenly;
@@ -40,9 +50,11 @@
     font-size: large;
     text-align: center;
   }
- /* style the menu images */
+ /* style the menu image and create placeholder*/
  .menuimage {
     padding: 10px;
+    width: 240;
+    height: 161;
  }
  /* Style the nav bar */
 .nav {
