@@ -8,15 +8,10 @@
     background-color:#364156;
     text-align: center;
 }
-/* placeholder for logo */
+/* class for logo which is used to hide on smaller devies */
 .logo {
     width: 166;
     height: 142;
-}
-/* placeholder for hangi image on index page*/
-.hangi {
-    width: 1500;
-    height: 475;
 }
 /* flex container for nav bar */
 .nav .container1 {
@@ -121,6 +116,7 @@ p1, p2, .container2 dl {
     padding: 14px 20px;
     text-decoration: none;
     font-size: large;
+    display: flex;
 }
 /* menu items description*/
 dt {
@@ -133,3 +129,32 @@ span {
     color: darkgoldenrod;
     margin: 6px;
 }
+/* Responsiveness*/
+
+/* Responsive font size makes the <h1> smaller on a smaller screen */
+@media screen and (max-width:600px) {
+    h1 h2 p1 p2 .container2 dl .nav a dt dl span {
+      font-size:1.2em;  
+  }
+}   
+/* Responsive layout - stack boxes in container instead of next to each other */
+  @media screen and (max-width:600px) {
+    .container2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nav .container1 ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /* */
+    .logo {
+        display: none;
+    }
+  }
+  /* responsive class allows all images to be responsive */
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
