@@ -96,7 +96,7 @@
     text-decoration: underline;
   }
 
-/* Fonts */
+/* --Fonts-- */
 
 /* main header on every page, header for each section*/
 h1, h2 {
@@ -129,7 +129,7 @@ span {
     color: darkgoldenrod;
     margin: 6px;
 }
-/* Responsiveness*/
+/* --Responsiveness-- */
 
 /* Responsive font size makes the <h1> smaller on a smaller screen */
 @media screen and (max-width:600px) {
