@@ -8,11 +8,6 @@
     background-color:#364156;
     text-align: center;
 }
-/* class for logo which is used to hide on smaller devies */
-.logo {
-    width: 166;
-    height: 142;
-}
 /* flex container for nav bar */
 .nav .container1 {
     display:flex;
@@ -48,8 +43,6 @@
  /* style the menu image and create placeholder*/
  .menuimage {
     padding: 10px;
-    width: 240;
-    height: 161;
  }
  /* Style the nav bar */
 .nav {
@@ -148,7 +141,7 @@ span {
         flex-wrap: wrap;
         width: 100%;
     }
-    /* */
+    /* class for logo thats not in main nav*/
     .logo {
         display: none;
     }
