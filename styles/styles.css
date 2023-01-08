@@ -72,7 +72,7 @@
 }
 /* style reservation and menu buttons */
 .container2 a {
-    background-color: darkgoldenrod;
+    background-color: rgb(136, 107, 35);
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -84,17 +84,13 @@
 .nav a:hover {
     text-decoration: underline;
   }
-  /* selected link - doesn't work */
-.nav a:active {
-    text-decoration: underline;
-  }
 
 /* --Fonts-- */
 
 /* main header on every page, header for each section*/
 h1, h2 {
     font-family: "arial", times, sans-serif;
-    color: darkgoldenrod;
+    color: rgb(136, 107, 35);
     margin: 3px;
 }
 /* paragraph text, nav links, menu items list*/
@@ -119,7 +115,7 @@ dt {
 /* menu items price*/
 span {
     font-family: "arial", times, sans-serif;
-    color: darkgoldenrod;
+    color: rgb(136, 107, 35);
     margin: 6px;
 }
 /* --Responsiveness-- */
