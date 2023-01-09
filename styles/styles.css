@@ -85,6 +85,11 @@
     text-decoration: underline;
   }
 
+/* Logo class to add padding */
+.logo {
+    padding-top: 12px;
+}
+
 /* --Fonts-- */
 
 /* main header on every page, header for each section*/
