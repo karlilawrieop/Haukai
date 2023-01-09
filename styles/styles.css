@@ -65,6 +65,7 @@
     font-size: medium;
     border: white;
     border-style: ridge;
+    font-size: small;
 }
 /* style reservation and menu buttons */
 .container2 a {
@@ -95,7 +96,7 @@ h1, h2 {
     margin: 3px;
 }
 /* paragraph text, nav links, menu items list*/
-p1, p2, .container2 dl {
+p, .container2 dl {
     font-family: "arial", times, sans-serif;
     color: #eaffea;
 }
