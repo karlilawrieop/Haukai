@@ -97,7 +97,7 @@ h1, h2 {
 /* paragraph text, nav links, menu items list*/
 p, .container2 dl {
     font-family: "arial", times, sans-serif;
-    color: #eaffea;
+    color: white;
 }
 /*  nav links */
 .nav a {
