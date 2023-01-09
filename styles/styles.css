@@ -41,10 +41,6 @@
     font-size: large;
     text-align: center;
   }
- /* style the menu image */
- .menuimage {
-    padding: 10px;
- }
  /* Style the nav bar */
 .nav {
     overflow: hidden;
