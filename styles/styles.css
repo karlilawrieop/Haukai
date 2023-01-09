@@ -58,7 +58,7 @@
  /* style embedded google iframes*/
  iframe {
     border-style:ridge;
-    border: #A49966;
+    border: #ecab07;
     width: 100%; 
  }
 /* Style the footer */
@@ -72,7 +72,7 @@
 }
 /* style reservation and menu buttons */
 .container2 a {
-    background-color: rgb(136, 107, 35);
+    background-color: #886B23;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -90,7 +90,7 @@
 /* main header on every page, header for each section*/
 h1, h2 {
     font-family: "arial", times, sans-serif;
-    color: rgb(136, 107, 35);
+    color: #ecab07;
     margin: 3px;
 }
 /* paragraph text, nav links, menu items list*/
@@ -115,7 +115,7 @@ dt {
 /* menu items price*/
 span {
     font-family: "arial", times, sans-serif;
-    color: rgb(136, 107, 35);
+    color: #ecab07;
     margin: 6px;
 }
 /* --Responsiveness-- */
