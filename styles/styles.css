@@ -1,150 +1,152 @@
 /* Universal box sizing */
 * {
-    box-sizing: border-box;
-    margin: 0px;
+  box-sizing: border-box;
+  margin: 0px;
 }
 /* Style the header and footer*/
 .header {
-    background-color:#364156;
-    text-align: center;
+  background-color: #364156;
+  text-align: center;
 }
 /* flex container for nav bar */
 .nav .container1 {
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: white;
-    border-style: ridge;
- }
-/* flex container for columns*/
- .container2 {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #364156;
-    border: white;
-    border-style: ridge;
- }
- /* flex container for rows*/
- .container3 {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #364156;
-    border: white;
-    border-style: ridge;
- }
- /* box class */
- .box {
-    margin: 10px;
-    padding: 20px;
-    font-size: large;
-    text-align: center;
-  }
- /* Style the nav bar */
-.nav {
-    overflow: hidden;
-    background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: white;
+  border-style: ridge;
 }
- /* style for top nav list*/
- .nav ul {
-    display:flex;
-    list-style: none;
- }
- /* style embedded google iframes*/
- iframe {
-    border-style:ridge;
-    border: #ecab07;
-    width: 100%; 
- }
+/* flex container for columns*/
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #364156;
+  border: white;
+  border-style: ridge;
+}
+/* flex container for rows*/
+.container3 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #364156;
+  border: white;
+  border-style: ridge;
+}
+/* box class */
+.box {
+  margin: 10px;
+  padding: 20px;
+  font-size: large;
+  text-align: center;
+}
+/* Style the nav bar */
+.nav {
+  overflow: hidden;
+  background-color: white;
+}
+/* style for top nav list*/
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+/* style embedded google iframes*/
+iframe {
+  border-style: ridge;
+  border: #ecab07;
+  width: 100%;
+}
 /* Style the footer */
 .footer {
-    background-color:#364156;
-    text-align: center;
-    padding: 10px;
-    font-size: medium;
-    border: white;
-    border-style: ridge;
+  background-color: #364156;
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+  border: white;
+  border-style: ridge;
 }
 /* style reservation and menu buttons */
 .container2 a {
-    background-color: #886B23;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 20px;
-    border-radius: 10px;
+  background-color: #886b23;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
 }
 /* mouse over link */
 .nav a:hover {
-    text-decoration: underline;
-  }
+  text-decoration: underline;
+}
 
 /* Logo class to add padding */
 .logo {
-    padding-top: 12px;
+  padding-top: 12px;
 }
 
 /* --Fonts-- */
 
 /* main header on every page, header for each section*/
-h1, h2 {
-    font-family: "arial", times, sans-serif;
-    color: #ecab07;
-    margin: 3px;
+h1,
+h2 {
+  font-family: "arial", times, sans-serif;
+  color: #ecab07;
+  margin: 3px;
 }
 /* paragraph text, nav links, menu items list*/
-p, .container2 dl {
-    font-family: "arial", times, sans-serif;
-    color: white;
+p,
+.container2 dl {
+  font-family: "arial", times, sans-serif;
+  color: white;
 }
 /*  nav links */
 .nav a {
-    font-family: "arial", times, sans-serif;
-    color: #364156;
-    padding: 14px 20px;
-    text-decoration: none;
-    font-size: large;
-    display: flex;
+  font-family: "arial", times, sans-serif;
+  color: #364156;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: large;
+  display: flex;
 }
 /* menu items description*/
 dt {
-    font-weight: bolder;
-    margin-top: 15px;
+  font-weight: bolder;
+  margin-top: 15px;
 }
 /* menu items price*/
 span {
-    font-family: "arial", times, sans-serif;
-    color: #ecab07;
-    margin: 6px;
+  font-family: "arial", times, sans-serif;
+  color: #ecab07;
+  margin: 6px;
 }
 /* --Responsiveness-- */
 
 /* Responsive font size makes the <h1> smaller on a smaller screen */
-@media screen and (max-width:600px) {
-    h1 h2 p1 p2 .container2 dl .nav a dt dl span {
-      font-size:1.2em;  
+@media screen and (max-width: 600px) {
+  h1 h2 p1 p2 .container2 dl .nav a dt dl span {
+    font-size: 1.2em;
   }
-}   
+}
 /* Responsive layout - stack boxes in container instead of next to each other */
-  @media screen and (max-width:600px) {
-    .container2 {
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-    .nav .container1 ul {
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    /* class for logo thats not in main nav*/
-    .logo {
-        display: none;
-    }
+@media screen and (max-width: 600px) {
+  .container2 {
+    flex-direction: row;
+    flex-wrap: wrap;
   }
-  /* responsive class allows all images to be responsive */
-  .responsive {
+  .nav .container1 ul {
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
-    height: auto;
   }
+  /* class for logo thats not in main nav*/
+  .logo {
+    display: none;
+  }
+}
+/* responsive class allows all images to be responsive */
+.responsive {
+  width: 100%;
+  height: auto;
+}
