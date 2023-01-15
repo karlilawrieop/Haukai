@@ -95,12 +95,14 @@ h2 {
   color: #ecab07;
   margin: 3px;
 }
-/* paragraph text, nav links, menu items list*/
+
+/* paragraph text, menu items list*/
 p,
 .container2 dl {
   font-family: "arial", times, sans-serif;
   color: white;
 }
+
 /*  nav links */
 .nav a {
   font-family: "arial", times, sans-serif;
@@ -110,26 +112,30 @@ p,
   font-size: large;
   display: flex;
 }
+
 /* menu items description*/
 dt {
   font-weight: bolder;
   margin-top: 15px;
 }
+
 /* menu items price*/
 span {
   font-family: "arial", times, sans-serif;
   color: #ecab07;
   margin: 6px;
 }
+
 /* --Responsiveness-- */
 
-/* Responsive font size makes the <h1> smaller on a smaller screen */
+/* Responsive font size */
 @media screen and (max-width: 600px) {
   h1 h2 p1 p2 .container2 dl .nav a dt dl span {
     font-size: 1.2em;
   }
 }
-/* Responsive layout - stack boxes in container instead of next to each other */
+
+/* Responsive layout - change nav links to column, all main content to rows */
 @media screen and (max-width: 600px) {
   .container2 {
     flex-direction: row;
@@ -140,11 +146,13 @@ span {
     flex-wrap: wrap;
     width: 100%;
   }
-  /* class for logo thats not in main nav*/
+
+  /* class for extra logos to be hidden in responsive version*/
   .logo {
     display: none;
   }
 }
+
 /* responsive class allows all images to be responsive */
 .responsive {
   width: 100%;
