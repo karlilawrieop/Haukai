@@ -61,6 +61,7 @@ iframe {
 .footer {
   background-color: #364156;
   text-align: center;
+  justify-content: space-evenly;
   padding: 10px;
   font-size: medium;
   border: white;
