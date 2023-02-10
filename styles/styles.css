@@ -34,6 +34,15 @@
   border: white;
   border-style: ridge;
 }
+/* flex container for footer*/
+.container4 {
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  background-color: #364156;
+  border: white;
+  border-style: ridge;
+}
 /* box class for main boxes */
 .box {
   margin: 10px;
