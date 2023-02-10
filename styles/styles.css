@@ -34,12 +34,18 @@
   border: white;
   border-style: ridge;
 }
-/* box class */
+/* box class for main boxes */
 .box {
   margin: 10px;
   padding: 20px;
   font-size: large;
   text-align: center;
+}
+/* box class for roster*/
+.boxroster {
+  margin: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 /* Style the nav bar */
 .nav {
