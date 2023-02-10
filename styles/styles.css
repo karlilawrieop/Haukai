@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0px;
 }
-/* Style the header and footer*/
+/* Style the header*/
 .header {
   background-color: #364156;
   text-align: center;
@@ -34,15 +34,7 @@
   border: white;
   border-style: ridge;
 }
-/* flex container for footer*/
-.container4 {
-  flex-direction: row;
-  justify-content: stretch;
-  align-items: center;
-  background-color: #364156;
-  border: white;
-  border-style: ridge;
-}
+
 /* box class for main boxes */
 .box {
   margin: 10px;
@@ -72,16 +64,18 @@ iframe {
   border: #ecab07;
   width: 100%;
 }
-/* Style the footer */
+/* Style the footer container*/
 .footer {
+  display: flex;
+  justify-content: right;
   background-color: #364156;
-  text-align: center;
-  justify-content: space-evenly;
+  text-align: right;
   padding: 10px;
   font-size: medium;
   border: white;
   border-style: ridge;
 }
+
 /* style reservation and menu buttons */
 .container2 a {
   background-color: #886b23;
@@ -129,6 +123,14 @@ p,
   display: flex;
 }
 
+/* link in footer*/
+.boxfooter a {
+  padding-right: 60px;
+  color: #ecab07;
+  font-family: "arial", times, sans-serif;
+  text-decoration: bold;
+  }
+
 /* menu items description*/
 dt {
   font-weight: bolder;
@@ -153,7 +155,7 @@ span {
 
 /* Responsive layout - change nav links to column, all main content to rows */
 @media screen and (max-width: 600px) {
-  .container2 {
+  .container2 .footer {
     flex-direction: row;
     flex-wrap: wrap;
   }
