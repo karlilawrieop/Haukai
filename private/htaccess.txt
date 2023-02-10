@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "This is for employees only. Please enter the password to access the roster."
+AuthUserFile "/app/www/.htpasswd"
+Require valid-user
